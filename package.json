@@ -1,0 +1,24 @@
+{
+  "name": "test-project-for-review",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test:run": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@octokit/rest": "^20.1.0",
+    "@playwright/test": "1.52.0",
+    "@types/imap-simple": "^4.2.10",
+    "@types/mailparser": "^3.4.6",
+    "@types/node": "^18.7.6",
+    "@typescript-eslint/eslint-plugin": "^8.35.1",
+    "@typescript-eslint/parser": "^8.35.1",
+    "allure-commandline": "^2.29.0",
+    "allure-playwright": "^3.0.5"
+  }
+}
