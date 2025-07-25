@@ -5,7 +5,7 @@ export default defineConfig({
   fullyParallel: true,
   retries: 0,
   workers: 1,
-  testDir: './tests',
+  testDir: './tests_e2e',
   reporter: [
     ['html'],
     ['junit', {outputFile: '../playwright-report/xunit.xml'}],
